@@ -1,0 +1,5 @@
+4 BusD CityB 13:00 15:30
+5 BusE CityC 14:15 17:00
+9 Hondai Piter 15:00 18:00
+34 BusLol Paris 20:00 22:00
+888 Супербус Минск 15:00 19:00

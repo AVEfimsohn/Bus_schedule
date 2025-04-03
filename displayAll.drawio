@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36" version="26.1.1">
+  <diagram name="Page-1" id="lDIjkNqgKK7wDPVdlMzN">
+    <mxGraphModel dx="584" dy="-2562" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8puZ1WG-fnpkZdYTBqrO-3" value="&lt;div&gt;&lt;span style=&quot;font-size: 16px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Вход&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 16px; background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;void displayAll(struct Trip* trips, const int tripCount)&lt;/span&gt;&lt;/div&gt;" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="1076" y="3300" width="200" height="86.75" as="geometry" />
+        </mxCell>
+        <mxCell id="8puZ1WG-fnpkZdYTBqrO-4" value="Выход" style="strokeWidth=1;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="1075" y="4210" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8puZ1WG-fnpkZdYTBqrO-5" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=17;exitX=0.485;exitY=0.006;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="8puZ1WG-fnpkZdYTBqrO-3" edge="1" source="DnD7ewfKVEDllW48Aflz-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1170" y="3410" as="sourcePoint" />
+            <mxPoint x="1249.37" y="4875.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DnD7ewfKVEDllW48Aflz-2" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=17;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="8puZ1WG-fnpkZdYTBqrO-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1177" y="4110" as="sourcePoint" />
+            <mxPoint x="1176.5" y="3486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DnD7ewfKVEDllW48Aflz-4" value="Вывод заголовка таблицы" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="1088" y="3511" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DnD7ewfKVEDllW48Aflz-5" value="&lt;p style=&quot;line-height: 0.2in;&quot; class=&quot;western&quot;&gt;&lt;font face=&quot;Times New Roman, serif&quot;&gt;&lt;font style=&quot;font-size: 14pt&quot;&gt;Преобразование полей времени&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1086" y="3712" width="183" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DnD7ewfKVEDllW48Aflz-6" value="&lt;p style=&quot;line-height: 0.2in;&quot; class=&quot;western&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; font-size: 18.6667px;&quot;&gt;Преобразование&lt;/span&gt;&lt;font face=&quot;Times New Roman, serif&quot;&gt;&lt;font style=&quot;font-size: 14pt&quot;&gt;&lt;br&gt;строковых данных&lt;/font&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1086.5" y="3812" width="183" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DnD7ewfKVEDllW48Aflz-7" value="Вывод всех полей таблицы" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="1086.5" y="3911" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DnD7ewfKVEDllW48Aflz-8" value="Вывод конца&amp;nbsp;&lt;div&gt;таблицы&lt;/div&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="1085" y="4110" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8puZ1WG-fnpkZdYTBqrO-19" value="A&lt;div&gt;Пока i &amp;lt; tripCount&lt;/div&gt;" style="shape=loopLimit;whiteSpace=wrap;html=1;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="1087" y="3611" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="8puZ1WG-fnpkZdYTBqrO-20" value="A" style="shape=loopLimit;whiteSpace=wrap;html=1;direction=west;fontSize=17;" parent="1" vertex="1">
+          <mxGeometry x="1088" y="4008" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="DnD7ewfKVEDllW48Aflz-9" value="&lt;p style=&quot;line-height: 0.2in;&quot; class=&quot;western&quot;&gt;&lt;font face=&quot;Times New Roman, serif&quot;&gt;&lt;span style=&quot;font-size: 18.6667px;&quot;&gt;Установка локали&lt;/span&gt;&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1087" y="3410" width="183" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
